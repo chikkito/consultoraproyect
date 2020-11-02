@@ -1,0 +1,12 @@
+<div class="container">
+    <span>TITULO WAZA</span>
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button class="buttond">
+        <mat-icon aria-label="Side nav toggle icon" (click)="showInfo()">login</mat-icon>
+    </button>
+    <div *ngFor="let item of array">
+        <p>{{item || '&nbsp;'}}</p>
+       
+    </div>
+ 
+</div>
+ 

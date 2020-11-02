@@ -1,0 +1,108 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+    background: #13368c;
+  }
+  .nav-toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+    background: #13368c;
+  }
+  
+  
+  .menu-title .p{
+    color: aliceblue;
+    font-size: larger;
+  }
+  
+  .sidenav-container {
+    overflow: auto;
+      position: top;
+      bottom:0;
+      left:0;
+      right:0;
+      margin: 10px;
+  }
+  
+  .sidenav {
+    width: 200px;
+  }
+  
+  .fondo{
+    background: #13368c;
+    color: white;
+  }
+  .sidenav .mat-toolbar {
+    background: #13368c;
+  }
+  
+  .sidenav-container .mat-toolbar{
+    background: #13368c;
+  }
+  .mat-drawer-side {
+    border-right-width: 0px !important;
+  }
+  .mat-list-item:hover {
+    background: cornflowerblue;
+  }
+  .menu-title p{
+    color: aliceblue;
+    font-size: larger;
+  }
+  
+  .mat-list-item{
+    border-radius: 5px;
+  }
+  .mat-nav-list{
+    padding: 3px;
+  }
+  
+  .material-icons.blue { 
+    color: #7a78e9; 
+  }
+  
+  .itemContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    position: relative;
+    height: 48px;
+    border-radius: 5px; 
+    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+  
+  .itemContent:hover{
+    background: cornflowerblue;
+  }
+  
+  .logOut{
+    width: max-content;
+    left: 100%;
+  }
+  
+  .alin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .buttond{
+      width: 90px;
+  }
